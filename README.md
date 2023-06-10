@@ -35,7 +35,7 @@ file này chính là ví của bot sẽ có private key vào địa chỉ ví c�
 
 #### Nạp tiền cho bot chạy
 
-gửi DOGE (gửi khoảng 100 doge ~ 6.7$, bot chạy chỉ mất fee nên rất rẻ gửi 100 sau này lại rút về, ko mất đâu) đến địa chỉ được hiển thị.
+gửi DOGE (gửi khoảng 100 doge ~ 6.7$, bot chạy chỉ mất fee nên rất rẻ gửi 100 sau này thừa lại rút về, ko mất đâu) đến địa chỉ được hiển thị.
 
 #### Sau khi gửi, đồng bộ hóa ví của bạn:
 
@@ -69,7 +69,7 @@ Từ git bash terminal gõ lệnh sau để mint token
 
 ### Phí mint
 
-Bot chỉ mất phí mạng, ko mất phí service nên rất rẻ, chạy cả chạy chỉ tốn 2->3$ thôi.
+Bot chỉ mất phí mạng, ko mất phí service nên rất rẻ, chạy cả chạy chỉ tốn 3->4$ thôi.
 
 ### Rút tiền
 
