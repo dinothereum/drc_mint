@@ -73,9 +73,9 @@ file này cứ 4 phút nó call lệnh mint 1 lần, cứ treo terminal ở đó
 
 Bot chỉ mất phí mạng, ko mất phí service nên rất rẻ, chạy cả ngày chỉ tốn 3->4$ thôi.
 
-## 5. Rút tiền
+## 5. Rút doge thừa từ ví bot 
 
-Sau khi mint xong có thể rút tiền từ ví bot về ví dpal
+Sau khi mint xong có thể rút doge thừa từ ví bot về ví dpal
 
 Truy cập vào trang https://dogechain.info/wallet/, chọn `Sweep Coins` rồi nhập `private key` vào để rút tiền về ví dpal, `private key` lấy trong file `.wallet.json` được sinh ra ở trên
 
