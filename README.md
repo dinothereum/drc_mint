@@ -74,8 +74,7 @@ Bot chỉ mất phí mạng, ko mất phí service nên rất rẻ, chạy cả 
 
 Sau khi mint xong có thể rút tiền từ ví bot về ví dpal
 
-Truy cập vào trang https://dogechain.info/wallet/, chọn `Sweep Coins` rồi nhập private key vào để rút tiền về ví dpla
-private key lấy trong file `.wallet.json` được sinh ra ở trên
+Truy cập vào trang https://dogechain.info/wallet/, chọn `Sweep Coins` rồi nhập `private key` vào để rút tiền về ví dpal, `private key` lấy trong file `.wallet.json` được sinh ra ở trên
 
 ### Một số cài đặt
 
