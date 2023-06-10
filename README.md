@@ -22,7 +22,8 @@ download bản cho windown về cài đặt như phầm mềm bình thường
 
 ### Nạp tiền
 
-Bật terminal của `git bash` lên, (tìm kiếm git bash xong mở nó lên) hoặc từ folder source chuột phải vào chọn `git bash`. Tất cả các lệnh phía sau đều dùng git bash để chạy trong folder của source.
+Bật terminal của `git bash` lên, (tìm kiếm git bash xong mở nó lên) hoặc từ folder source code chuột phải vào chọn `git bash`. 
+Tất cả các lệnh phía sau đều dùng git bash để chạy trong folder của source.
 
 #### Tạo một tệp `.wallet.json` mới chạy lệnh dưới:
 
@@ -30,7 +31,7 @@ Bật terminal của `git bash` lên, (tìm kiếm git bash xong mở nó lên) 
 node . wallet new
 ```
 
-file này sẽ có private key vào địa chỉ ví của bot
+file này chính là ví của bot sẽ có private key vào địa chỉ ví của bot
 
 #### Nạp tiền cho bot chạy
 
@@ -38,7 +39,7 @@ gửi DOGE (gửi khoảng 100 doge ~ 6.7$, bot chạy chỉ mất fee nên rấ
 
 #### Sau khi gửi, đồng bộ hóa ví của bạn:
 
-Sau  khi gửi thành công kiểm tra tại: https://chain.so/ thì chạy tiếp lệnh.
+Sau  khi gửi thành công (transaction phải confirm - kiểm tra tại https://chain.so/) thì chạy tiếp lệnh.
 
 ```
 node . wallet sync
@@ -106,15 +107,7 @@ là thời gian chờ để mint batch tiếp theo, 240 là 4 phút, có thể g
 nên ko thể nạp thêm lệnh mới được, cần chờ nó confirm thì mới nạp dc, cứ kệt nó cái `auto.sh` 4p nó nạp
 lệnh mới 1 lần
 
-> Nếu check trong `https://chain.so/` mà lệnh cuối cùng đã confirm dc từ 25 block chở lên mà ko có lệnh mới thì có thẻ ví bot đó đã có lệnh bị lỗi ko thể thực hiện tiếp dc 
+> Nếu check trong `https://chain.so/` mà lệnh cuối cùng đã confirm dc từ 24 block chở lên mà ko có lệnh mới thì có thẻ ví bot đó đã có lệnh bị lỗi ko thể thực hiện tiếp dc 
 
 Cách khác phục là rút tiền khỏi ví (cách rút phía trên), tạo ví mới =)). 
-
-
-
-
-
-
-
-
 
