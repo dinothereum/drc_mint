@@ -35,6 +35,7 @@ file này chính là ví của bot sẽ có private key vào địa chỉ ví c�
 ### Nạp tiền cho bot chạy
 
 gửi DOGE (gửi khoảng 100 doge ~ 6.7$, bot chạy chỉ mất fee nên rất rẻ gửi 100 sau này thừa lại rút về, ko mất đâu) đến địa chỉ được hiển thị.
+> Có thể mở file `.wallet.json` để xem địa chỉ ví
 
 ### Sau khi gửi, đồng bộ hóa ví của bạn:
 
