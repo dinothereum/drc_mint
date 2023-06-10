@@ -2,7 +2,7 @@
 
 Cần tạo ví mới cho bot và ví mới để nhận token mint nhé.
 
-## Yêu cầu cần có
+## 1. Yêu cầu cần có
 
 ### Cài đặt NodeJS
 
@@ -16,16 +16,15 @@ Do windown ko hỗ chợ chạy file `.sh` nên cần cài thêm https://gitforw
 
 download bản cho windown về cài đặt như phầm mềm bình thường
 
-### Download code về (nhắn tin để nhận code của bot)
+## 2. Download code về (nhắn tin để nhận code của bot)
 
-### Cấu hình môi trường
+## 3. Cấu hình môi trường
 
-### Nạp tiền
 
 Bật terminal của `git bash` lên, (tìm kiếm git bash xong mở nó lên) hoặc từ folder source code chuột phải vào chọn `git bash`. 
 Tất cả các lệnh phía sau đều dùng git bash để chạy trong folder của source.
 
-#### Tạo một tệp `.wallet.json` mới chạy lệnh dưới:
+### Tạo một tệp `.wallet.json` mới chạy lệnh dưới:
 
 ```
 node . wallet new
@@ -33,11 +32,11 @@ node . wallet new
 
 file này chính là ví của bot sẽ có private key vào địa chỉ ví của bot
 
-#### Nạp tiền cho bot chạy
+### Nạp tiền cho bot chạy
 
 gửi DOGE (gửi khoảng 100 doge ~ 6.7$, bot chạy chỉ mất fee nên rất rẻ gửi 100 sau này thừa lại rút về, ko mất đâu) đến địa chỉ được hiển thị.
 
-#### Sau khi gửi, đồng bộ hóa ví của bạn:
+### Sau khi gửi, đồng bộ hóa ví của bạn:
 
 Sau  khi gửi thành công (transaction phải confirm - kiểm tra tại https://chain.so/) thì chạy tiếp lệnh.
 
@@ -67,17 +66,17 @@ Từ git bash terminal gõ lệnh sau để mint token
 ./auto.sh 
 ```
 
-### Phí mint
+## 4. Phí mint
 
 Bot chỉ mất phí mạng, ko mất phí service nên rất rẻ, chạy cả chạy chỉ tốn 3->4$ thôi.
 
-### Rút tiền
+## 5. Rút tiền
 
 Sau khi mint xong có thể rút tiền từ ví bot về ví dpal
 
 Truy cập vào trang https://dogechain.info/wallet/, chọn `Sweep Coins` rồi nhập `private key` vào để rút tiền về ví dpal, `private key` lấy trong file `.wallet.json` được sinh ra ở trên
 
-### Một số cài đặt
+## 6. Một số cài đặt
 
 Các thông số mình đã thiết lập để chạy dc ổn định rồi, lúc nào đua gas mới phải thay thôi =))
 
