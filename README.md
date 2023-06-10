@@ -51,7 +51,7 @@ Chia nhỏ UTXO của mình để mint nhanh và nhiều hơn:
 node . wallet split 10
 ```
 
-chờ lệnh split xong thì làm bước tiếp
+chờ lệnh split xong (transaction confirm) thì làm bước tiếp.
 
 ### Thay địa chỉ nhận token drc20
 
@@ -87,7 +87,7 @@ Trong file này có `FEE_PER_KB=7000000` (0.0023$ 1 lệnh) đây chính là ph�
 
 ### File auto.sh
 
-File này có các setting quan trong nhất
+File này có các setting quan trọng nhất
 
 1. Dòng `node . drc-20 mint XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX fiwb 50 5`
 
@@ -104,8 +104,8 @@ là thời gian chờ để mint batch tiếp theo, 240 là 4 phút, có thể g
 ### Một số lỗi
 
 - `258: txn-mempool-conflict` tức là ví bot đó đang có nhiều transaction đang chờ trong memepool, 
-nên ko thể nạp thêm lệnh mới được, cần chờ nó confirm thì mới nạp dc, cứ kệt nó cái `auto.sh` 4p nó nạp
-lệnh mới 1 lần
+nên ko thể nạp thêm lệnh mới được, cần chờ nó confirm thì mới nạp dc, cứ kệ nó cái `auto.sh` 4p nó nạp
+lệnh mới 1 lần.
 
 > Nếu check trong `https://chain.so/` mà lệnh cuối cùng đã confirm dc từ 24 block chở lên mà ko có lệnh mới thì có thẻ ví bot đó đã có lệnh bị lỗi ko thể thực hiện tiếp dc 
 
