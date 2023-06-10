@@ -85,7 +85,7 @@ Các thông số mình đã thiết lập để chạy dc ổn định rồi, l�
 
 #### File .env
 
-Trong file này có `FEE_PER_KB=7000000` (0.0023$ 1 lệnh) đây chính là phí mạng, có thể tăng lên để nhanh hơn
+Trong file này có `FEE_PER_KB=7000000` (~0.0014$ 1 lệnh) đây chính là phí mạng, có thể tăng lên để nhanh hơn
 
 ### File auto.sh
 
