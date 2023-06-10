@@ -96,12 +96,14 @@ File này có các setting quan trọng nhất
 - `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` chính là ví nhận token drc20, phải thay cái này trước khi chạy file auto này nhé
 - `fiwb` là tên token muốn mint
 - `50` là limit của token fiwb
-- `5` là số lần chạy mỗi batch (cứ 4 phút mint 4 lần), có thể tăng số này lên, tối đa nên để 12 thôi
+- `5` là số lần chạy mỗi batch (cứ 4 phút mint 5 lần), có thể tăng số này lên, tối đa nên để 12 thôi
 
 2. Dòng `sleep 240` 
 
 
-là thời gian chờ để mint batch tiếp theo, 240 là 4 phút, có thể giảm thời gian này xuống, nhưng ko nên giảm dưới 3p
+là thời gian chờ để mint batch tiếp theo, 240 giây = 4 phút, có thể giảm thời gian này xuống, nhưng không nên giảm dưới 3 phút 
+nhé.
+
 
 ### Một số lỗi
 
