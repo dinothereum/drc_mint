@@ -67,6 +67,8 @@ Từ git bash terminal gõ lệnh sau để mint token
 ./auto.sh 
 ```
 
+file này cứ 4 phút nó call lệnh mint 1 lần, cứ treo terminal ở đó cho nó chạy nhé đừng tắt đi
+
 ## 4. Phí mint
 
 Bot chỉ mất phí mạng, ko mất phí service nên rất rẻ, chạy cả chạy chỉ tốn 3->4$ thôi.
