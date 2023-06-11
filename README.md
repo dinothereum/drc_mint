@@ -113,5 +113,7 @@ lệnh mới 1 lần.
 
 > Nếu check trong `https://chain.so/` mà lệnh cuối cùng đã confirm dc từ 24 block chở lên mà ko có lệnh mới thì có thẻ ví bot đó đã có lệnh bị lỗi ko thể thực hiện tiếp dc 
 
-Cách khác phục là rút tiền khỏi ví (cách rút phía trên), tạo ví mới =)). 
+#### Cách khắc phục
+- 1. Thử tắt bot (crt + c), sau đó chạy lại lệnh `node . wallet sync`, rồi bật lại bot `./auto.sh`
+- 2. Cài lại ví bot mới (sẽ chạy 100%), đâu tiên rút tiền khỏi ví (cách rút phía trên), rồi làm lại theo bước số 3 ở trên.
 
