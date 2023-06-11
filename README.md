@@ -111,7 +111,8 @@ nhé.
 nên ko thể nạp thêm lệnh mới được, cần chờ nó confirm thì mới nạp dc, cứ kệ nó cái `auto.sh` 4p nó nạp
 lệnh mới 1 lần.
 
-> Nếu check trong `https://chain.so/` mà lệnh cuối cùng đã confirm dc từ 24 block chở lên mà ko có lệnh mới thì có thẻ ví bot đó đã có lệnh bị lỗi ko thể thực hiện tiếp dc 
+> Nếu check trong `https://chain.so/` mà lệnh cuối cùng đã confirm dc từ 24 block chở lên mà ko có lệnh mới thì có thẻ ví bot đó đã có lệnh bị lỗi ko thể thực hiện tiếp dc
+> Nguyên nhân có thể do gas thấp, nhiều transaction đang pedding hoặc có transaction đang confict, ví hết doge để trả phí ....
 
 #### Cách khắc phục
 - 1. Thử tắt bot (crt + c), sau đó chạy lại lệnh `node . wallet sync`, rồi bật lại bot `./auto.sh`
